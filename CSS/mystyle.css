@@ -15,12 +15,22 @@ body{
     min-height: 500px;
 }
 
+nav {
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-template-areas: "img info";
+  background-color: rgb(221, 221, 221);
+  margin: 20px auto;
+  padding: 30px;
+  border: 2px solid black;
+}
+
 nav  .navbar-brand{
   font-size: 30px;
   font-family: 'Dosis', sans-serif;
 }
 
-nav  .nav-lists{
+nav  .navbar-nav{
   font-size: 20px;
 }
 
@@ -248,7 +258,7 @@ nav  .nav-lists{
       position: absolute;
       top: 0%;
       left: 0%;
-      right: 20%;
+      right: 0%;
   }
   
 }
