@@ -15,6 +15,16 @@ body{
     min-height: 500px;
 }
 
+nav  .navbar-brand{
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+}
+
+nav  .nav-lists{
+  font-size: 20px;
+}
+
+
 #About
 {
     margin-top: -200px;
